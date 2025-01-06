@@ -2,6 +2,7 @@ import { Route, Routes } from "react-router-dom"
 import OverviewPage from "./Pages/OverviewPage"
 import ProductPage from "./Pages/ProductPage"
 import Sidebar from "./components/common/Sidebar"
+import UsersPage from "./Pages/UsersPage"
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<OverviewPage/>}/>
         <Route path="/products" element={<ProductPage/>}/>
+        <Route path="/users" element={<UsersPage/>}/>
       </Routes>
     </div>
   )
