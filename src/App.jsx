@@ -3,6 +3,7 @@ import OverviewPage from "./Pages/OverviewPage"
 import ProductPage from "./Pages/ProductPage"
 import Sidebar from "./components/common/Sidebar"
 import UsersPage from "./Pages/UsersPage"
+import SalesPage from "./Pages/SalesPage"
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Route path="/" element={<OverviewPage/>}/>
         <Route path="/products" element={<ProductPage/>}/>
         <Route path="/users" element={<UsersPage/>}/>
+        <Route path="/sales" element={<SalesPage/>}/>
       </Routes>
     </div>
   )
