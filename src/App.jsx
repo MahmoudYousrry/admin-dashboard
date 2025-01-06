@@ -4,6 +4,7 @@ import ProductPage from "./Pages/ProductPage"
 import Sidebar from "./components/common/Sidebar"
 import UsersPage from "./Pages/UsersPage"
 import SalesPage from "./Pages/SalesPage"
+import OrdersPage from "./Pages/OrdersPage"
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <Route path="/products" element={<ProductPage/>}/>
         <Route path="/users" element={<UsersPage/>}/>
         <Route path="/sales" element={<SalesPage/>}/>
+        <Route path="/orders" element={<OrdersPage/>}/>
       </Routes>
     </div>
   )
